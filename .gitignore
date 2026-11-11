@@ -1,0 +1,37 @@
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Archivos compilados
+out/
+build/
+
+# Archivos temporales
+*.log
+*.tmp
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Configuraciones privadas
+.env
+.env.*
+!.env.example
+
+# Credenciales
+*.pem
+*.key
+secrets/
+credentials/
+
+# Bases de datos locales temporales
+*.sqlite
+*.sqlite3
+*.db
+
+# Facturas de ejemplo (opcional)
+Facturas/
+# Configuración privada de MySQL
+db.properties
